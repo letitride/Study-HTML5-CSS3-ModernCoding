@@ -21,3 +21,25 @@
 .footer {
   width: 100%;
 }
+
+/*
+ ::afterは要素の最後に擬似要素を追加する
+ 回り込んだ子要素は親要素から高さが認識できないので
+ 回り込みを解除した擬似要素を配置することで高さを認識させる
+*/
+.clearfix::after{
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.header, .main, .sidemenu, .footer{
+  border: 1px solid #aaa;
+  background-color: #ccc;
+}
+.header, .footer{
+  height: 100px;
+}
+.main, .sidemenu{
+  height: 500px;
+}
