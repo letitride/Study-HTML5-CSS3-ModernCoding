@@ -109,6 +109,10 @@ a:link, a:visited, a:hover, a:active{
   clear: both;
 }
 
+.hidden {
+  display: none;
+}
+
 /* メイン要素の確認
 .header, .main, .sidemenu, .footer{
   border: 1px solid #aaa;
