@@ -46,6 +46,16 @@ a:link, a:visited, a:hover, a:active{
   height: 100%;
 }
 
+.global-nav{
+  margin-top: 10px;
+  text-align: center;
+}
+
+.global-nav .nav-item {
+  display: inline-block; /* block要素を横並びに */
+  margin: 0 10px;
+}
+
 .wrapper {
   width: 970px;
   margin: 30px auto 40px;
