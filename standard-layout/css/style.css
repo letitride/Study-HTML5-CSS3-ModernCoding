@@ -1,3 +1,28 @@
+@charset "UTF-8";
+
+html{
+  /* 一般的なブラウザのfontsizeは16px
+     %指定することでブラウザ側でのサイズ変更にもある程度対応できる
+  */
+  font-size: 62.5%;
+}
+
+body{
+  color: #333;
+  font-size: 1.2em; /* 親要素からのfont-sizeからの倍率 remはroot要素となる */
+  font-family: "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+}
+
+*, *::before, *::after{
+  /* paddingやborderも幅高さのサイズ指定に含める */
+  box-sizing: border-box;
+}
+
+a:link, a:visited, a:hover, a:active{
+  color: #d03c56;
+  text-decoration: none;
+}
+
 .header {
   width: 100%;
 }
