@@ -56,6 +56,17 @@ a:link, a:visited, a:hover, a:active{
   margin: 0 10px;
 }
 
+.global-nav .nav-item a{
+  display: inline-block; /* a要素の幅高さを指定可能に */
+  width: 100px;
+  height: 30px;
+  line-height: 30px; /* heightと同じ行間にすることで縦位置を中央寄せに */
+  text-align: center;
+  border-radius: 8px;
+  color: #666;
+  font-size: 1.3rem;
+}
+
 .wrapper {
   width: 970px;
   margin: 30px auto 40px;
