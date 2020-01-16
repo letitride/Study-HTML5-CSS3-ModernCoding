@@ -66,6 +66,16 @@ a:link, a:visited, a:hover, a:active{
   color: #666;
   font-size: 1.3rem;
   letter-spacing: 1px; /* 文字間隔 */
+  transition: 0.15s; /* 時間をかけてスタイルを変化させる */
+}
+
+ /* スペースを取らずにセレクタを連続して記述することで
+    .nav-item.active両方が付いた要素を指定できる */
+.global-nav .nav-item.active a,
+.global-nav .nav-item a:hover
+{
+  background-color: #d03c56;
+  color: #fff;
 }
 
 .wrapper {
