@@ -33,6 +33,7 @@
   clear: both;
 }
 
+/* メイン要素の確認
 .header, .main, .sidemenu, .footer{
   border: 1px solid #aaa;
   background-color: #ccc;
@@ -43,3 +44,4 @@
 .main, .sidemenu{
   height: 500px;
 }
+*/
