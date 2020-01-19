@@ -161,6 +161,7 @@ a:link, a:visited, a:hover, a:active{
   padding: 10px 15px;
   color: #333;
   transition: background-color 0.1s;
+  font-size: 0; /* 要素間改行に自動でspaceが入るので0の大きさに */
 }
 
 /** 偶数要素のスタイル */
@@ -170,6 +171,41 @@ a:link, a:visited, a:hover, a:active{
 
 .scroll-list .scroll-item a:hover{
   background-color: #fafaf8;
+}
+
+.scroll-list .date{
+  display: inline-block;
+  width: 19%;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+
+.scroll-list .category{
+  display: inline-block;
+  width: 8%;
+  font-size: 1rem;
+  border-radius: 5px;
+  background-color: #d03c56;
+  color: #fff;
+  text-align: center;
+  letter-spacing: 1px;
+  line-height: 16px;
+}
+
+.scroll-list .category.news{
+  background-color: #2c3c53;
+}
+
+
+.scroll-list .title{
+  display: inline-block;
+  width: 73%;
+  padding-left: 15px;
+  font-size: 1.2rem;
+  white-space: nowrap; /* 折り返ししない */
+  overflow: hidden; /* はみ出た文字を非表示 */
+  text-overflow: ellipsis; /* 非表示になるテキストの手前で...で省略表示する nowrap,hiddenを設定して有効になる */ 
 }
 
 .sidemenu {
