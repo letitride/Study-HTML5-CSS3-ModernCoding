@@ -105,3 +105,21 @@ a:link, a:visited, a:hover, a:active{
 .item-breaktime, .item-breaktime .category::before{
   border-color: #c1efff;
 }
+
+.header{
+  padding: 25px 0;
+  border-bottom: none;
+  text-align: center;
+}
+
+.logo{
+  width: 136px;
+  height: 136px;
+  transform: -webkit-transform 0.3s;
+  transition: transform 0.3s;
+}
+
+.logo:hover{
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
