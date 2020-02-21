@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+html{
+  font-size: 62.5%;
+}
+
+*, *::before, *::after{
+  box-sizing: border-box;
+}
+
+body{
+  /* スクロールされないようにする */
+  background: #151515 url('../images/bg.png') no-repeat fixed left bottom; 
+  background-size: cover; /* 画像画像で全体を覆う */
+  color: #fff;
+  text-align: center;
+  font-size: 1.4rem;
+  font-family: Raleway, "Hiragino Kaku Gothic ProN",  Meiryo,  sans-serif;
+}
