@@ -280,6 +280,12 @@ body{
   font-size: 1.3rem;
 }
 
+@media (max-width: 1024px){
+  body{
+    background-image: none;
+  }
+}
+
 @media (max-width: 768px){
   .site-title-sub::before,
   .site-title-sub::after{
@@ -340,5 +346,11 @@ body{
   }
   .skill-text{
     margin: 0;
+  }
+  .contact-form{
+    width: 80%;
+  }
+  .contact{
+    padding-bottom: 80px;
   }
 }
